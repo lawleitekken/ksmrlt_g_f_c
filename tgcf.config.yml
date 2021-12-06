@@ -3,7 +3,7 @@ forwards:
 - source: -1001255398384
   dest:
   - -1001712638055
-  offset: 1
+  offset: 7469
   end: 0
 show_forwarded_from: false
 live:
@@ -14,5 +14,12 @@ past:
 plugins:
   replace:
     text:
-      '@Telugudubbing_movies - ': 'Join @MVS_REQ - '
+      '@Telugudubbing_movies - ': 'Join @REQ_MVS - '
+      '@ALBCINEMASALL' : 'Join @REQ_MVS'
+      '@mwkOTT' : '@REQ_MVS'
+      '@mwkFiles' : '@REQ_MVS'
+      '@mwkfiles' : '@REQ_MVS'
+      '@movieworldkdy' : '@REQ_MVS'
+      '@mwkbots' : '@REQ_MVS'
+      '>' : '  '
       regex: true
