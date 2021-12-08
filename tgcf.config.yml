@@ -3,7 +3,7 @@ forwards:
 - source: -1001255398384
   dest:
   - -1001712638055
-  offset: 26353
+  offset: 32837
   end: 0
 show_forwarded_from: false
 live:
@@ -23,4 +23,7 @@ plugins:
       '@mwkbots': '@REQ_MVS'
       '>': '  '
       '@mwkott' : '@REQ_MVS'
+      '@MM_New' : 'Join @REQ_MVS'
+      '[CF]' : '@REQ_MVS'
+      
       regex: true
