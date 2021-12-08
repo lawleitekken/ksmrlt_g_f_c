@@ -3,7 +3,7 @@ forwards:
 - source: -1001255398384
   dest:
   - -1001712638055
-  offset: 19741
+  offset: 26360
   end: 0
 show_forwarded_from: false
 live:
@@ -22,4 +22,5 @@ plugins:
       '@movieworldkdy': '@REQ_MVS'
       '@mwkbots': '@REQ_MVS'
       '>': '  '
+      '@mwkott' : '@REQ_MVS'
       regex: true
