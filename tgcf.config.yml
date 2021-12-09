@@ -1,8 +1,10 @@
 admins: []
 forwards:
 - source: -1001255398384
-  dest: [-1001530546753, -1001663359641]
-  offset: 1
+  dest:
+  - -1001530546753
+  - -1001663359641
+  offset: 1001
   end: 1000
 show_forwarded_from: false
 live:
@@ -21,13 +23,12 @@ plugins:
       '@movieworldkdy': '@REQ_MVS'
       '@mwkbots': '@REQ_MVS'
       '@AVA': '@REQ_MVS'
-      '@CCineClub' : '@REQ_MVS'
-      'CCineClub_0' : '@REQ_MVS'
-      '@mwkott' : '@REQ_MVS'
-      '@Popcorn_Cinemas' : '@REQ_MVS'
-      '@MM_New' : 'Join @REQ_MVS'
-      '[CF]' : '@REQ_MVS'
-      '@Onmoviess' : '@REQ_MVS'
-      '@fullyfilmie' : '@REQ_MVS'
-      
+      '@CCineClub': '@REQ_MVS'
+      CCineClub_0: '@REQ_MVS'
+      '@mwkott': '@REQ_MVS'
+      '@Popcorn_Cinemas': '@REQ_MVS'
+      '@MM_New': Join @REQ_MVS
+      '[CF]': '@REQ_MVS'
+      '@Onmoviess': '@REQ_MVS'
+      '@fullyfilmie': '@REQ_MVS'
       regex: true
