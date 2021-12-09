@@ -1,10 +1,9 @@
 admins: []
 forwards:
 - source: -1001255398384
-  dest:
-  - -1001712638055
-  offset: 32837
-  end: 0
+  dest: [-1001530546753, -1001663359641]
+  offset: 1
+  end: 1000
 show_forwarded_from: false
 live:
   delete_sync: false
@@ -21,9 +20,14 @@ plugins:
       '@mwkfiles': '@REQ_MVS'
       '@movieworldkdy': '@REQ_MVS'
       '@mwkbots': '@REQ_MVS'
-      '>': '  '
+      '@AVA': '@REQ_MVS'
+      '@CCineClub' : '@REQ_MVS'
+      'CCineClub_0' : '@REQ_MVS'
       '@mwkott' : '@REQ_MVS'
+      '@Popcorn_Cinemas' : '@REQ_MVS'
       '@MM_New' : 'Join @REQ_MVS'
       '[CF]' : '@REQ_MVS'
+      '@Onmoviess' : '@REQ_MVS'
+      '@fullyfilmie' : '@REQ_MVS'
       
       regex: true
