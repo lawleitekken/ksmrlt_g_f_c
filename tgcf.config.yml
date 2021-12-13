@@ -24,7 +24,7 @@ plugins:
       '@mwkbots': '@REQ_MVS'
       '@AVA': '@REQ_MVS'
       '@CCineClub': '@REQ_MVS'
-      CCineClub_0: '@REQ_MVS'
+      'CCineClub_0': '@REQ_MVS'
       '@mwkott': '@REQ_MVS'
       '@Popcorn_Cinemas': '@REQ_MVS'
       '@MM_New': Join @REQ_MVS
