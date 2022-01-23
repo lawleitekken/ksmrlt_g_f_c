@@ -20,4 +20,4 @@ plugins:
       regex: true
    filter:
     files:
-     whitelist: [document,nofile,video]
+     whitelist: [document,video]
