@@ -15,7 +15,7 @@ past:
 plugins:
    filter:
     files:
-      whitelist: [document,nofile,video]
+      whitelist: ["document","nofile","video"]
   replace:
     text:
       '@UCParadiso': 'Join @REQ_MVS - '
