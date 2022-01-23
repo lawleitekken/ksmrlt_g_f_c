@@ -4,7 +4,7 @@ forwards:
   dest:
   - -1001528955304
   - -1001278443743
-  offset: 1
+  offset: 3001
   end: 3000
 show_forwarded_from: false
 live:
@@ -15,4 +15,6 @@ past:
 plugins:
   filter:
     files:
-     whitelist: [document,video]
+      whitelist:
+      - document
+      - video
