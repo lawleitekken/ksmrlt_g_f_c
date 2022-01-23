@@ -13,11 +13,6 @@ live:
 past:
   delay: 3.0
 plugins:
-  replace:
-    text:
-      '@UCParadiso': 'Join @REQ_MVS - '
-      '@UCParadisoGroup': Join @REQ_MVS
-      regex: true
-   filter:
+  filter:
     files:
      whitelist: [document,video]
