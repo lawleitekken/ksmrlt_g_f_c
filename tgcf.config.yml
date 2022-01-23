@@ -13,9 +13,6 @@ live:
 past:
   delay: 3.0
 plugins:
-   filter:
-    files:
-      whitelist: ["document","nofile","video"]
   replace:
     text:
       '@UCParadiso': 'Join @REQ_MVS - '
