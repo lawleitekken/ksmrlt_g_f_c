@@ -6,4 +6,4 @@ runs:
   using: docker
   image: Dockerfile
   env:
-    TGCF_MODE: past
+    TGCF_MODE: live
